@@ -9909,7 +9909,7 @@ h3 {
 
   .container {
     min-height: 6912px;
-    background-image: url(../img/container.jpg);
+    background-image: url(../img/container_960.jpg);
   }
 }
 @media (min-width: 1200px) {

@@ -1,4 +1,4 @@
-<div class="row text-light">
+<div class="row text-dark">
     <div class="col-2 ml-5 ">
         <h3>
             Earth is round!

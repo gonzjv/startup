@@ -17,7 +17,7 @@
     .wrap {
         min-height: 6912px;
         background-image:	url(../img/wrap.jpg);
-    }
+    }   
     .container{
         min-height: 6912px;
         background-image:	url(../img/container_960.jpg);
@@ -31,7 +31,7 @@
     }
     .container{
         min-height: 6912px;
-        background-image:	url(../img/container.jpg);
+        background-image:	url(../img/container_960.jpg);
     }
 }
 @include media-breakpoint-only(xl){
