@@ -1,0 +1,59 @@
+@import "./scss/bootstrap.scss";
+
+/*@include media-breakpoint-only(xs){
+    .wrap {
+        min-height: 384px;
+        background-image:	url(../img/wrap_576x384.jpg);
+    }
+}
+@include media-breakpoint-only(sm){
+    .wrap {
+        min-height: 512px;
+        background-image:	url(../img/wrap_768x512.jpg);
+    }
+}
+*/
+@include media-breakpoint-only(md){
+    .wrap {
+        min-height: 6912px;
+        background-image:	url(../img/wrap.jpg);
+    }
+    .container{
+        min-height: 6912px;
+        background-image:	url(../img/container_960.jpg);
+    }
+}
+@include media-breakpoint-only(lg){
+    .wrap {
+        min-height: 6912px;
+        background-image:	url(../img/wrap.jpg);
+        /*background-image:	url(../img/undredal_norway_1366x768.jpg);*/
+    }
+    .container{
+        min-height: 6912px;
+        background-image:	url(../img/container.jpg);
+    }
+}
+@include media-breakpoint-only(xl){
+    .wrap {
+        min-height: 6912px;
+        background-image:	url(../img/wrap.jpg);
+        /*background-image:	url(../img/undredal_norway_fullhd.jpg);*/
+    }
+    .container{
+        min-height: 6912px;
+        background-image:	url(../img/container.jpg);
+    }
+}
+.url{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+a {
+  /*color: var(--white);*/
+  color: #e3f2fd;
+}
+.background{
+    background-color: #e3f2fd; 
+    opacity: .9
+}
